@@ -1,0 +1,14 @@
+a=int(input("Tell your number and I will say is it even or odd "))
+b=int(input("Tell your divider"))
+c= a % b
+if a % 2 == 0:
+    if a % 4 == 0:
+        print("Your number can divide by 2 square ")
+    else:
+        print("Your number is even ")
+elif a % 2 == 1:
+    print("Your number is odd ")
+if a % b == 0 :
+    print("Your number can divide by your divider")
+else:
+    print(f"Your number can't divide by your divider and remaining is {c}")
