@@ -1,0 +1,5 @@
+name=str(input("Tell your name to me: "))
+print("Your name is " + name)
+age=int(input("Tell your age to me: "))
+yıl=2123-age
+print(f"Your age is {age} and in {yıl} you will be 100 years old.")
